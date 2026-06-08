@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local app bundles and build output
+dist/
+*.app
+*.dSYM/
+*.xcarchive/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Local configuration and environment files
+local.mk
+.env
+.env.*
+!.env.example
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~
+*.orig
